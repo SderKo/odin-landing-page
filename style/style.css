@@ -1,0 +1,189 @@
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.hero {
+    background-color: #1F2937;
+    height: 65vh;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: roboto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+
+h1 {
+    font-size: 48px;
+    padding-left: 100px;
+    padding-top: 15px;
+    font-weight: bold;
+    color: #F9FAF8;
+    font-family: roboto;
+}
+
+span {
+    color: #eb659f;
+}
+
+.text-header {
+    padding-left: 100px;
+}
+
+.hero-main, a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+
+.container-main {
+    padding-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+div > h1 {
+    line-height: 0.2em;
+    padding-bottom: 50px;
+}
+div > p {
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+div > img {
+    padding-top: 50px;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    font-family: roboto;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: white;
+    color: #3882F6;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 50px;
+    font-family: roboto;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.container-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.box > p {
+    width: 150px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.box > img {
+   border-radius: 10px;
+}
+
+.info {
+    height: 420px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.quote  p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+    font-family: roboto;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.quote .author {
+    font-family: roboto;
+     position: relative;
+     left: 65%;
+}
+
+.container-sign {
+    height: 300px;
+    padding-top: 70px;
+    
+} 
+ 
+.container-sign .text-sign {
+    background-color: #3882F6;
+    width: 60%;
+    padding: 50px;
+    padding-left: 100px;
+    height: 160px;
+    margin: 0 auto;
+    color: white;
+    font-size: 16px;
+    font-family: roboto;
+    border-radius: 10px;
+}
+
+.text-sign p {
+    width: 100%;
+}
+
+.container-sign button {
+    position: relative;
+    bottom: 45%;
+    left: 65%;
+    border: 2px solid white;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 100px;
+    color:#E5E7EB;
+    text-align: center;
+    padding: 40px;
+    font-family: roboto;
+    font-weight: lighter;  
+}
+
+
